@@ -1,0 +1,40 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+/*7. Pida por teclado una hora y debe mostrar la que le correspondería un segundo más tarde. (Se pide
+Hora, Minutos y Segundos)*/
+
+var hour
+var min
+var sec
+
+hour = parseInt(prompt("Introduzca un número de horas"));
+min = parseInt(prompt("Introduzca un número de minutos"));
+sec = parseInt(prompt("Introduzca un número de segundos"));
+
+if ((sec<0) || (min<0) || (hour<0) || (sec>=60) || (min>=60) || (hour>=24)) {
+    alert("Datos introducidos erróneos");
+}
+else {
+    sec=sec+1;
+    if (sec>=60) {
+        min=min+1;
+        sec=sec-60;
+        if (min>=60) {
+            hour=hour+1;
+            min=min-60;
+            if (hour==24) {
+                hour=0;
+            }
+        }
+    }
+    alert("Son las " + hour + " horas, " + min + " minutos, " + sec + " segundos.");
+}
+
+</script>
+</body>
+</html>

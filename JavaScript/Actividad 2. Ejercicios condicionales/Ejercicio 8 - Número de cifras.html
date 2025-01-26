@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+//8. Pedir un número por teclado e indicar cuantos dígitos tiene. 1,2,3 o mas de 3.
+
+var num
+
+num = prompt("Introduzca un número");
+
+if (num<10 && num>-10) {
+    alert("El número tiene 1 cifra");
+}
+else{
+    if (num<100 && num>-100) {
+        alert("El número tiene 2 cifras");
+    }
+    else {
+        if (num<1000 && num>-1000) {
+            alert("El número tiene 3 cifras");
+        }
+        else {
+            alert("El número tiene más de 3 cifras");
+        }
+    }
+}
+
+</script>
+</body>
+</html>
