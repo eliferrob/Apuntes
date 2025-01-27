@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+
+<script>
+//6. Que pida una palabra por teclado y muestre cuantas veces aparece la letra C.
+
+var palabra,cont,numC;
+palabra = prompt("Introduzca una palabra");
+cont = 0;
+numC = 0;
+
+while(cont<palabra.length){
+    if(palabra[cont]=="C"||palabra[cont]=="c"){
+        numC++;
+    }
+    cont++;
+}
+document.write("La palabra " + palabra + " tiene " + numC + " c's </br>");
+
+</script>
+</body>
+</html>

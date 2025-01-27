@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+
+<script>
+//7. Dado 10 números por teclado muestra la media de los pares y la media de los impares.
+
+var cont, num, mediapar, mediaimpar;
+cont = 0;
+mediapar = 0;
+mediaimpar = 0;
+
+while(cont<=10){
+    num = parseInt(prompt("Introduzca 10 números"));
+    if(num%2==0){
+        mediapar = mediapar + num;
+    }
+    else {
+        mediaimpar = mediaimpar + num;
+    }
+    cont++;
+}
+document.write("La media de pares es " + mediapar/10 + " y la media de impares es " + mediaimpar/10 + "</br>");
+
+</script>
+</body>
+</html>

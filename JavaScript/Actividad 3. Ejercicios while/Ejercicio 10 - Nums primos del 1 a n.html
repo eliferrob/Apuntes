@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+
+<script>
+//10. Realizar un programa que nos pida un número n, y nos diga cuantos números hay entre 1 y n que son primos.
+
+var num, num2, cont, cont2, primo;
+cont = 2;
+cont2 = 1;
+num = 1;
+num2 = parseInt(prompt("Introduzca un número"));
+
+while(cont2<=num2){
+    primo=2;
+    while(cont<=num/2){
+        if(num%cont==0){
+            primo++;  
+        }
+        cont++
+    }
+    if(primo==2){
+            document.write(num + "</br>");
+    }
+    num++;
+    cont2++;
+}
+
+</script>
+</body>
+</html>

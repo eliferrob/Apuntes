@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+
+<script>
+//9. Dado un numero teclado indicar si es primo o no.
+
+var num, cont, primo;
+cont = 2;
+num = parseInt(prompt("Introduzca un número"));
+primo = 2;
+
+while(cont<=num/2){
+    if(num%cont==0){
+        primo++;  
+    }
+    cont++;
+}
+if(primo>2){
+    document.write("El número no es primo");
+}
+else{
+    document.write("El número es primo"); 
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+
+<script>
+//4. Mostrar los numeros pares que nos indique el usuario. Controlar que el numero sea positivo.
+
+var numpares,cont;
+numpares = parseInt(prompt("Introduzca un numero de pares"));
+cont = 2
+
+if (numpares>0){
+    while(numpares>0){
+        if (cont%2==0){
+            document.write(cont + "</br>");
+            numpares--;
+        }
+    cont++;
+    }
+}
+
+</script>
+</body>
+</html>
