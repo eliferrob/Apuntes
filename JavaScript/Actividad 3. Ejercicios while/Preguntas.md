@@ -14,13 +14,7 @@ El nombre ANA tiene la A*
 8) Mostrar las tablas de multiplicar del 1 al 9
 9) Dado un numero teclado indicar si es primo o no.
 10) Realizar un programa que nos pida un número n, y nos diga cuantos números hay entre 1 y n que son primos.
-11) Dado el número de DNI mostrar la letra que le corresponde.
-
-El cálculo de la letra del Documento Nacional de Identidad (DNI) es un proceso matemático sencillo que se basa en obtener el resto de la división entera del número de DNI y el número 23. A partir del resto de la división, se obtiene la letra seleccionándola dentro de una cadena de caracteres. La T corresponde al 0, la R al 1 y así hasta el 22.
-
-“TRWAGMYFPDXBNJZSQVHLCKE”
-
-12) Hacer un algoritmo para mostrar las siguiente figura dependiendo del numero introducido por teclado
+11) Hacer un algoritmo para mostrar las siguiente figura dependiendo del numero introducido por teclado
 
 Dado un número entero positivo mostrar:
 ```
