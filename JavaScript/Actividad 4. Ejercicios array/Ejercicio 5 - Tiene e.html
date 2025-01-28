@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<script>
+// 5. Función que devuelva verdadero o falso si una palabra (se le pasa por parámetro) tiene solo una letra ‘e’.
+
+function terminaEnE (string){
+    var numE = 0;  // Inicializamos el contador de letras 'e'.
+    var c = 0;  // Inicializamos el contador.
+
+    while (c < string.length) {
+        if (string[c].toLowerCase() === 'e') {  // Verificamos si el carácter es 'e' o 'E'.
+            numE++;
+        }
+        c++;
+    }
+
+    // Devolvemos "Verdadero" si hay exactamente una 'e', de lo contrario "Falso".
+    if (numE === 1) {
+        document.write("Verdadero");
+    } else {
+        document.write("Falso");
+    }
+}
+
+var frase = prompt("Introduzca una frase: ");
+
+terminaEnE(frase)
+
+</script>
+</body>
+</html>
