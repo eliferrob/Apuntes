@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 9. Hacer un algoritmo en js que muestre el número de días que tiene un mes. Se pedirá por teclado el número del mes.
 var num, month=["31","28 o 29","31","30","31","30","31","31","30","31","30","31"];
 
@@ -16,7 +9,3 @@ if (num > 0 && num < 13) {
 else {
     document.write("Número incorrecto.")
 }
-
-</script>
-</body>
-</html>

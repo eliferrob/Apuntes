@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 3. Función que devuelva verdadero o falso si una cadena está bien parentizada
 
 function parentizar(string){
@@ -38,7 +31,3 @@ var phrase;
 phrase = prompt("Introduzca una frase: ");
 
 parentizar(phrase);
-
-</script>
-</body>
-</html>

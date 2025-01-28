@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 5. Función que devuelva verdadero o falso si una palabra (se le pasa por parámetro) tiene solo una letra ‘e’.
 
 function terminaEnE (string){
@@ -29,7 +22,3 @@ function terminaEnE (string){
 var frase = prompt("Introduzca una frase: ");
 
 terminaEnE(frase)
-
-</script>
-</body>
-</html>

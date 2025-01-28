@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 10. Mostrar los 10 primeros números de la serie de Fibonacci
 
 var c, sequence=[0,1];
@@ -17,7 +10,3 @@ for(c = 2; c < 10; c++) {
 for(c = 0; c < 10; c++) {
     document.write(sequence[c] + " ")
 }
-
-</script>
-</body>
-</html>

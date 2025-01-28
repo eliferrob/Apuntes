@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 6. Hacer un programa que cree un array con los 100 primeros números y luego los muestre
 
 var list=[];
@@ -18,7 +11,3 @@ for(c=0;c<100;c++) {
 for(c=0;c<100;c++) {
     document.write(list[c]+" ")
 }
-
-</script>
-</body>
-</html>

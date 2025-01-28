@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 8. Hacer un algoritmo en js que muestre el mes que se corresponde a un número dado por teclado.
 var num, month=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 
@@ -16,7 +9,3 @@ if (num > 0 && num < 13) {
 else {
     document.write("Número incorrecto.")
 }
-
-</script>
-</body>
-</html>

@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 4. Función que devuelva verdadero o falso si una cadena (se le pasa por parámetro) termina con la letra ‘a’.
 
 function terminaEnA (string){
@@ -21,7 +14,3 @@ var frase;
 frase = prompt("Introduzca una frase: ");
 
 terminaEnA(frase)
-
-</script>
-</body>
-</html>

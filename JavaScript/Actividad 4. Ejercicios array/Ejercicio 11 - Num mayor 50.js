@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 11. Pedir por teclado 10 números y después mostrar los que son mayores de 50 y cuantos son.
 
 var total = 0, list = [];
@@ -22,7 +15,3 @@ for(c = 0; c < 10; c++) {
     }
 }
 document.write("<br> Son " + total + " en total.")
-
-</script>
-</body>
-</html>

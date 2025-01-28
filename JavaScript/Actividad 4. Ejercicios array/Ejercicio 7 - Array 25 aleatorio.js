@@ -1,10 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-
-<script>
 // 7. Crear un array con 25 números aleatorios entre 1 y 100.
 var list = [];
 
@@ -18,7 +11,3 @@ document.write("Números aleatorios generados:<br>");
 for (c = 0; c < 25; c++) {
     document.write(list[c] + " ");
 }
-</script>
-
-</body>
-</html>
